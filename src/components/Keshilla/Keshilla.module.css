@@ -1,0 +1,40 @@
+.Keshilla {
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: #eee;
+}
+
+.Keshilla i {
+    color: rgba(27, 148, 148, 0.63);
+}
+
+
+.Keshilla h3 {
+    color: rgb(115, 130, 131);
+}
+
+.Keshilla .col {
+    border-top: 0.5em solid rgba(27, 148, 148, 0.63);
+    padding: 1em;
+}
+
+.Keshilla div {
+    width: 30%;
+    height: auto;
+    border-top: 10px solid rgb(247, 220, 131);
+    border-radius: 10px;
+    background-color: white;
+    margin: 10px 0;
+    box-sizing: border-box;
+    padding-left: 10px;
+    overflow: hidden;
+}
+
+@media (max-width: 550px) {
+    .Keshilla div {
+        width: 250px;
+        margin: 10px;
+    }
+}

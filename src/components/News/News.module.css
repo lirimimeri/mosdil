@@ -1,0 +1,24 @@
+.News {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: #eee;
+    text-align: center;
+}
+
+h2 {
+    font-weight: lighter;
+}
+
+
+.News div {
+    width: 44%;
+    height: auto;
+}
+
+.News p {
+    color: rgb(95, 95, 95);
+    font-size: 1.2em;
+    padding: 10px;
+}
+

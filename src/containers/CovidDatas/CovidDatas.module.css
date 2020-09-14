@@ -1,0 +1,9 @@
+.CovidDatas {
+  text-align: center;
+  padding: 20px 0;
+  margin: 3px 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  background-color: #eee;
+}

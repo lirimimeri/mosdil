@@ -1,0 +1,13 @@
+.NavLink {
+  display: flex;  
+  justify-content: space-between;
+}
+
+.Link {
+  padding: 10px;
+  cursor: pointer;
+}
+
+.Link:hover{
+  background-color: white;
+}
