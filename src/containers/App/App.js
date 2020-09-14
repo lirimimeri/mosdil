@@ -1,5 +1,5 @@
 import React from 'react';
-import { Route } from 'react-router-dom'
+import { Route, Switch } from 'react-router-dom'
 
 import classes from './App.module.css';
 import Header from '../../components/Header/Header'
@@ -15,8 +15,10 @@ class App extends React.Component {
       <div className={classes.App}>
         <Header />
         <CovidDatas />
-        <Route path='/keshilla' component={Keshilla} />
-        <Route path='/informata' component={News} />
+          <Route path='/' exact component={Keshilla} />
+          <Route path='/home' exact component={Keshilla} />
+          <Route path='/keshilla' exact component={Keshilla} />
+          <Route path='/informata' exact component={News} />
         <Footer />
       </div>
     );
