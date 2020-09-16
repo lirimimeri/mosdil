@@ -71,6 +71,7 @@ class CovidDatas extends React.Component {
   render() {
     const displayData = this.state.covidDatas.map(data => {
       return <CovidData 
+        key={data.title}
         icon={data.icon} 
         casesNumber={data.cases}
         title={data.title} 
