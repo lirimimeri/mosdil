@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/mosdil/static/css/main.0e7ed738.chunk.css",
+    "main.js": "/mosdil/static/js/main.96f28ca5.chunk.js",
+    "main.js.map": "/mosdil/static/js/main.96f28ca5.chunk.js.map",
+    "runtime-main.js": "/mosdil/static/js/runtime-main.f821638b.js",
+    "runtime-main.js.map": "/mosdil/static/js/runtime-main.f821638b.js.map",
+    "static/js/2.477a40f2.chunk.js": "/mosdil/static/js/2.477a40f2.chunk.js",
+    "static/js/2.477a40f2.chunk.js.map": "/mosdil/static/js/2.477a40f2.chunk.js.map",
+    "index.html": "/mosdil/index.html",
+    "precache-manifest.1f466b1ba261ba593e29021bc3c4f577.js": "/mosdil/precache-manifest.1f466b1ba261ba593e29021bc3c4f577.js",
+    "service-worker.js": "/mosdil/service-worker.js",
+    "static/css/main.0e7ed738.chunk.css.map": "/mosdil/static/css/main.0e7ed738.chunk.css.map",
+    "static/js/2.477a40f2.chunk.js.LICENSE.txt": "/mosdil/static/js/2.477a40f2.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f821638b.js",
+    "static/js/2.477a40f2.chunk.js",
+    "static/css/main.0e7ed738.chunk.css",
+    "static/js/main.96f28ca5.chunk.js"
+  ]
+}
