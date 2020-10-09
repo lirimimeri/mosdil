@@ -23,14 +23,14 @@
 .Keshilla div {
     width: 30%;
     height: auto;
-    border-top: 10px solid rgb(247, 220, 131);
-    border-radius: 10px;
-    background-color: white;
+    border-top: 5px solid #ff9966;
+    /* border-radius: 10px; */
+    background-color: rgba(255, 255, 255, 0.61);
     margin: 10px 0;
     box-sizing: border-box;
     padding-left: 10px;
-    overflow: hidden;
-    box-shadow: 0 10px 10px 4px #ccc;
+    /* overflow: hidden; */
+    box-shadow: 0 10px 10px 4px rgb(184, 180, 180);
 }
 
 @media (max-width: 550px) {
