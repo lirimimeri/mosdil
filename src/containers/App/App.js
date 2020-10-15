@@ -13,7 +13,7 @@ class App extends React.Component {
   render() {
     return (
       <div className={classes.App}>
-        <Header />
+        {/* <Header /> */}
         <CovidDatas />
           <Route path='/' exact component={Keshilla} />
           <Route path='/home' exact component={Keshilla} />
