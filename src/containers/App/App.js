@@ -13,10 +13,11 @@ class App extends React.Component {
   render() {
     return (
       <div className={classes.App}>
-        {/* <Header /> */}
+        <Header />
         <CovidDatas />
+        
           <Route path='/' exact component={Keshilla} />
-          <Route path='/home' exact component={Keshilla} />
+         
           <Route path='/keshilla' exact component={Keshilla} />
           <Route path='/informata' exact component={News} />
         <Footer />

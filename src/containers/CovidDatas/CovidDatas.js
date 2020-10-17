@@ -1,5 +1,4 @@
 import React from 'react'
-
 import CovidData from '../../components/CovidData/CovidData'
 import classes from './CovidDatas.module.css'
 
@@ -79,7 +78,9 @@ class CovidDatas extends React.Component {
     })
     return (
       <div className={classes.CovidDatas}>
+        <div className={classes.Data}>
         { displayData }
+        </div>
       </div>
     )
   }

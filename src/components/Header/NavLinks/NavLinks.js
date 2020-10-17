@@ -20,21 +20,15 @@ const NavLinks = (props) => {
 
   return (
     <div className={classes.NavLink}>
-      <div>
-        <p className={classes.Link} onClick={handleHomeClick}>
-          Home
-        </p>
-      </div>
+      <img src={require('../../../assets/Logo.png')} alt="HOME" onClick={handleHomeClick}/>
 
-      <div>
-        <p className={classes.Link} onClick={handleKeshillaClick}>
-          Keshilla
-        </p>
-      </div>
-
-      <div>
+  
+      <div className={classes.Links}>
         <p className={classes.Link} onClick={handleInformataclick}>
           Informata
+        </p>
+        <p className={classes.Link} onClick={handleKeshillaClick}>
+          Keshilla
         </p>
       </div>
     </div>

@@ -26,11 +26,11 @@ const CovidData = ( props ) => {
   }
   return (
     <div className={classes.CovidData}>
-      <p className={classes.Head} style={backgroundStyles}>{ props.title }</p>
+      <p className={classes.Head} style={backgroundStyles}>{ props.title.toLowerCase() }</p>
       <i className={props.icon} />
       { 
         props.loading ? 
-        <Spinner /> : 
+        <p><Spinner /></p> : 
         <p className={classes.Cases}> {props.casesNumber} </p> 
       }
     </div>
